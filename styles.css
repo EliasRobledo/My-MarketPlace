@@ -1,0 +1,153 @@
+
+body{
+    background-image: url(fondo.jpg);
+}
+
+.Productos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    gap: 1em;
+    padding: 1%;
+    border: 5px black;
+   
+}
+.Productos div{
+    background-color: rgb(138, 200, 255);
+    padding: 2em;
+    border-radius: 9%;
+    background:rgba(92, 218, 240, 0.6) ;
+    
+}
+.graficas{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 400px 400px 400px 400px; */
+    gap: 1em;
+    padding: 1%;
+}
+.graficas div{
+    background-color: rgb(138, 200, 255);
+    padding: 2em;
+    border-radius: 9%;
+    background:rgba(92, 218, 240, 0.6) ;
+}
+.almacenamiento{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+    gap: 1em;
+    padding: 1%;
+}
+.almacenamiento div{
+    background-color: rgb(138, 200, 255);
+    padding: 2em;
+    border-radius: 9%;
+    background:rgba(92, 218, 240, 0.6) ;
+}
+.Monitores{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1em;
+    padding: 1%; 
+}
+.Monitores div{
+    background-color: rgb(138, 200, 255);
+    padding: 2em;
+    border-radius: 9%;
+    background:rgba(92, 218, 240, 0.6) ;
+}
+.Perifericos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+    gap: 1em;
+    padding: 1%;
+}
+.Perifericos div{
+    background-color: rgb(138, 200, 255);
+    padding: 2em;
+    border-radius: 9%;
+    background:rgba(92, 218, 240, 0.6) ;
+}
+h1{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    color:rgb(25, 0, 255);
+    text-shadow: 0px 0px 9px #508AD3;
+
+    
+}
+.titulo{
+    background-color:rgb(138, 202, 225);
+    background:rgba(92, 218, 240, 0.4) ;
+    
+}
+.Productos button{
+    background-color: rgb(34, 30, 255);
+    border-radius: 8%;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+    right: -30%;
+}
+.almacenamiento button{
+    background-color: rgb(34, 30, 255);
+    border-radius: 8%;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+    right: -30%;
+}
+.graficas button{
+    background-color: rgb(34, 30, 255);
+    border-radius: 8%;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+    right: -30%;
+}
+.Monitores button{
+    background-color: rgb(34, 30, 255);
+    border-radius: 8%;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+    right: -30%;
+}
+.Perifericos button{
+    background-color: rgb(34, 30, 255);
+    border-radius: 8%;
+    font-size: 15px;
+    border: 2px solid black;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    position: relative;
+    right: -30%;
+}
+.buscador{
+    color:rgb(25, 0, 255);
+    text-shadow: 0px 0px 9px #508AD3;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(34, 111, 255);
+    border-radius: 20px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
